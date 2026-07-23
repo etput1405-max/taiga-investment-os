@@ -1,0 +1,27 @@
+<!doctype html><html lang="ja"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#08111f"><meta name="apple-mobile-web-app-capable" content="yes">
+<title>大河専用 投資判断OS</title>
+<style>
+:root{--bg:#07101d;--panel:#111c30;--line:#2a3a5a;--text:#eef4ff;--muted:#9daac2;--green:#4be0a2;--blue:#79aaff;--gold:#f0c961;--red:#ff7785}
+*{box-sizing:border-box}html{background:var(--bg)}body{margin:0;background:linear-gradient(#07101c,#0b1425);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans JP",sans-serif;min-height:100vh}
+header{padding:calc(15px + env(safe-area-inset-top)) 16px 12px;position:sticky;top:0;background:rgba(8,17,31,.94);backdrop-filter:blur(15px);z-index:5;border-bottom:1px solid var(--line)}
+h1{font-size:20px;margin:0}.sub{font-size:11px;color:var(--muted);margin-top:4px}main{padding:12px;max-width:980px;margin:auto}.kpis{display:grid;grid-template-columns:1fr 1fr;gap:10px}.card{background:var(--panel);border:1px solid var(--line);border-radius:15px;padding:13px;margin-bottom:10px}.label{font-size:11px;color:var(--muted)}.kpi{font-size:22px;font-weight:850;margin-top:5px}.green{color:var(--green)}.gold{color:var(--gold)}
+h2{font-size:15px;margin:0 0 10px}.tabs{display:flex;gap:7px;overflow:auto;margin-bottom:10px}.tabs button{white-space:nowrap;border:1px solid var(--line);background:var(--panel);color:var(--muted);border-radius:999px;padding:9px 12px;font-weight:700}.tabs button.active{background:var(--blue);color:#06101e}
+.rank{display:grid;grid-template-columns:34px 1fr auto;gap:9px;align-items:center;padding:12px 0;border-bottom:1px solid #263553}.place{font-size:18px;font-weight:900;color:var(--muted)}.name{font-weight:800}.meta{font-size:11px;color:var(--muted);margin-top:3px}.score{text-align:right;font-size:20px;font-weight:900}.pill{font-size:10px;padding:4px 7px;border-radius:999px;display:inline-block;margin-top:4px}.top{background:rgba(75,224,162,.16);color:#78f1bd}.buy{background:rgba(121,170,255,.16);color:#b1d0ff}.watch{background:rgba(240,201,97,.15);color:#ffe49c}.skip{background:#26324a;color:#cbd3e2}.positive{color:var(--green)}.negative{color:var(--red)}
+.market-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}.market{padding:10px;background:#0b1628;border-radius:11px}.market b{display:block;font-size:12px}.notice{font-size:12px;line-height:1.6;color:#cdd7e9}@media(min-width:760px){.kpis{grid-template-columns:repeat(4,1fr)}.market-grid{grid-template-columns:repeat(4,1fr)}}
+</style></head><body>
+<header><h1>大河専用｜投資判断OS</h1><div class="sub">日本株を自動抽出・毎日更新</div></header><main>
+<div class="kpis"><div class="card"><div class="label">市場環境</div><div id="regime" class="kpi">—</div></div><div class="card"><div class="label">最優先候補</div><div id="topCount" class="kpi green">0</div></div><div class="card"><div class="label">買い場候補</div><div id="buyCount" class="kpi">0</div></div><div class="card"><div class="label">分析成功</div><div id="coverage" class="kpi gold">0</div></div></div>
+<div class="tabs"><button class="active" data-filter="all">総合</button><button data-filter="value">押し目</button><button data-filter="momentum">上昇</button><button data-filter="stable">安定</button></div>
+<div class="card"><h2>自動ランキング</h2><div id="ranking"></div></div><div class="card"><h2>市場データ</h2><div id="markets" class="market-grid"></div></div><div class="card"><h2>更新情報</h2><div id="info" class="notice">読み込み中…</div></div>
+<script>
+let DATA=null,filter="all";const pct=x=>x==null?'—':`${x>=0?'+':''}${Number(x).toFixed(2)}%`;const cls=s=>s==='最優先候補'?'top':s==='買い場候補'?'buy':s==='監視'?'watch':'skip';
+function render(){const d=DATA;if(!d)return;regime.textContent=d.regime?`${d.regime.label} ${d.regime.score}`:'—';topCount.textContent=d.ranking.filter(x=>x.signal==='最優先候補').length;buyCount.textContent=d.ranking.filter(x=>x.signal==='買い場候補').length;coverage.textContent=`${d.meta.success}/${d.meta.requested}`;
+let rows=[...d.ranking];if(filter==="value")rows.sort((a,b)=>b.pullback_score-a.pullback_score);if(filter==="momentum")rows.sort((a,b)=>b.momentum_score-a.momentum_score);if(filter==="stable")rows.sort((a,b)=>b.stability_score-a.stability_score);
+ranking.innerHTML=rows.slice(0,50).map((x,i)=>`<div class="rank"><div class="place">${i+1}</div><div><div class="name">${x.name}</div><div class="meta">${x.ticker}｜20日 ${pct(x.mom20)}｜60日 ${pct(x.mom60)}｜高値比 ${pct(x.drawdown)}</div><span class="pill ${cls(x.signal)}">${x.signal}</span><div class="meta">${x.reasons.join(" / ")}</div></div><div class="score">${filter==="value"?x.pullback_score:filter==="momentum"?x.momentum_score:filter==="stable"?x.stability_score:x.score}</div></div>`).join('');
+markets.innerHTML=d.market.map(x=>`<div class="market"><b>${x.name}</b><div>${Number(x.value).toLocaleString()}</div><div class="${x.change20>=0?'positive':'negative'}">20日 ${pct(x.change20)}</div></div>`).join('');
+info.innerHTML=`最終更新：${new Date(d.updated_at).toLocaleString("ja-JP")}<br>分析対象：${d.meta.requested}銘柄／取得成功：${d.meta.success}銘柄<br>取得失敗：${d.meta.failed}銘柄<br><br>価格推移、押し目、相対強度、値動きの安定性による機械的な候補抽出です。`; }
+document.querySelectorAll(".tabs button").forEach(b=>b.onclick=()=>{document.querySelectorAll(".tabs button").forEach(x=>x.classList.remove("active"));b.classList.add("active");filter=b.dataset.filter;render()});
+fetch("./data.json?"+Date.now()).then(r=>r.json()).then(d=>{DATA=d;render()}).catch(e=>info.textContent="data.json読込失敗："+e.message);
+</script></main></body></html>

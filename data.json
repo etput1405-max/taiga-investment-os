@@ -1,0 +1,34 @@
+{
+  "updated_at": "2026-07-23T20:00:00+09:00",
+  "regime": {
+    "score": 50.0,
+    "label": "初回実行前"
+  },
+  "market": [],
+  "ranking": [
+    {
+      "ticker": "—",
+      "name": "Actionsを初回実行してください",
+      "price": 0,
+      "score": 0,
+      "signal": "監視",
+      "mom20": null,
+      "mom60": null,
+      "mom120": null,
+      "drawdown": 0,
+      "vol20": 0,
+      "momentum_score": 0,
+      "pullback_score": 0,
+      "stability_score": 0,
+      "reasons": [
+        "ActionsタブからUpdate investment rankingを実行"
+      ]
+    }
+  ],
+  "meta": {
+    "universe": 0,
+    "requested": 0,
+    "success": 0,
+    "failed": 0
+  }
+}
