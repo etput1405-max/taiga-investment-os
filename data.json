@@ -1,8 +1,11 @@
 {
+  "version": "1.0",
   "updated_at": "2026-07-23T20:00:00+09:00",
   "regime": {
-    "score": 50.0,
-    "label": "初回実行前"
+    "score": 50,
+    "label": "初回実行前",
+    "nikkei20": 0,
+    "vix20": 0
   },
   "market": [],
   "ranking": [
@@ -12,6 +15,7 @@
       "price": 0,
       "score": 0,
       "signal": "監視",
+      "mom5": null,
       "mom20": null,
       "mom60": null,
       "mom120": null,
@@ -20,6 +24,7 @@
       "momentum_score": 0,
       "pullback_score": 0,
       "stability_score": 0,
+      "relative_score": 0,
       "reasons": [
         "ActionsタブからUpdate investment rankingを実行"
       ]
@@ -29,6 +34,8 @@
     "universe": 0,
     "requested": 0,
     "success": 0,
-    "failed": 0
-  }
+    "failed": 0,
+    "batch_failures": 0
+  },
+  "last_error": null
 }
