@@ -1,84 +1,84 @@
 {
   "version": "1.0",
-  "updated_at": "2026-08-10T21:05:32+09:00",
+  "updated_at": "2026-08-11T21:02:41+09:00",
   "regime": {
-    "score": 50.5,
+    "score": 49.0,
     "label": "中立",
-    "nikkei20": -0.41,
-    "vix20": -9.91
+    "nikkei20": -1.14,
+    "vix20": -6.24
   },
   "market": [
     {
       "symbol": "^N225",
       "name": "日経平均",
       "value": 66970.2188,
-      "change5": 5.04,
-      "change20": -0.41,
-      "change60": 10.12
+      "change5": 4.71,
+      "change20": -1.14,
+      "change60": 10.6
     },
     {
       "symbol": "1306.T",
       "name": "TOPIX連動ETF",
       "value": 427.6,
-      "change5": 3.84,
-      "change20": 2.35,
-      "change60": 7.37
+      "change5": 3.69,
+      "change20": 1.5,
+      "change60": 6.74
     },
     {
       "symbol": "JPY=X",
       "name": "ドル円",
-      "value": 158.803,
-      "change5": 0.77,
-      "change20": -1.9,
-      "change60": -0.03
+      "value": 159.264,
+      "change5": 1.1,
+      "change20": -1.95,
+      "change60": 0.25
     },
     {
       "symbol": "^TNX",
       "name": "米国10年金利",
-      "value": 4.66,
-      "change5": -0.55,
-      "change20": 1.11,
-      "change60": 0.8
+      "value": 4.699,
+      "change5": 1.56,
+      "change20": 2.49,
+      "change60": 0.69
     },
     {
       "symbol": "^VIX",
       "name": "VIX",
-      "value": 15.46,
-      "change5": -2.52,
-      "change20": -9.91,
-      "change60": -13.24
+      "value": 15.47,
+      "change5": -6.24,
+      "change20": -6.24,
+      "change60": -14.34
     },
     {
       "symbol": "CL=F",
       "name": "WTI原油",
-      "value": 79.64,
-      "change5": -0.87,
-      "change20": 1.92,
-      "change60": -26.71
+      "value": 82.19,
+      "change5": 8.47,
+      "change20": 3.59,
+      "change60": -23.74
     },
     {
       "symbol": "GC=F",
       "name": "金",
-      "value": 4393.7002,
-      "change5": 8.92,
-      "change20": 9.92,
-      "change60": -3.49
+      "value": 4447.3999,
+      "change5": 8.6,
+      "change20": 9.51,
+      "change60": -1.31
     },
     {
       "symbol": "HG=F",
       "name": "銅",
-      "value": 6.622,
-      "change5": 1.66,
-      "change20": 6.24,
-      "change60": 5.58
+      "value": 6.6695,
+      "change5": 0.77,
+      "change20": 5.36,
+      "change60": 8.18
     },
     {
       "symbol": "SOXX",
       "name": "米国半導体ETF",
-      "value": 543.27,
-      "change5": 7.01,
-      "change20": -1.87,
-      "change60": 9.61
+      "value": 529.39,
+      "change5": -2.36,
+      "change20": -6.78,
+      "change60": 6.62
     }
   ],
   "ranking": [
@@ -906,7 +906,7 @@
       "drawdown": -9.54,
       "vol20": 43.28,
       "momentum_score": 89.5,
-      "pullback_score": 85.8,
+      "pullback_score": 85.9,
       "stability_score": 18.4,
       "relative_score": 93.9,
       "reasons": [
@@ -1723,7 +1723,7 @@
       "drawdown": -9.85,
       "vol20": 33.13,
       "momentum_score": 81.9,
-      "pullback_score": 87.4,
+      "pullback_score": 87.5,
       "stability_score": 32.1,
       "relative_score": 93.4,
       "reasons": [
@@ -1955,7 +1955,7 @@
       "mom120": 56.58,
       "drawdown": -4.93,
       "vol20": 30.13,
-      "momentum_score": 87.3,
+      "momentum_score": 87.2,
       "pullback_score": 59.0,
       "stability_score": 38.6,
       "relative_score": 86.3,
@@ -2062,7 +2062,7 @@
       "momentum_score": 96.9,
       "pullback_score": 92.3,
       "stability_score": 6.0,
-      "relative_score": 24.1,
+      "relative_score": 24.0,
       "reasons": [
         "適度な押し目"
       ]
@@ -2558,7 +2558,7 @@
       "drawdown": -12.16,
       "vol20": 18.71,
       "momentum_score": 73.0,
-      "pullback_score": 99.0,
+      "pullback_score": 98.9,
       "stability_score": 69.4,
       "relative_score": 88.3,
       "reasons": [
@@ -2602,7 +2602,7 @@
       "drawdown": -13.09,
       "vol20": 59.97,
       "momentum_score": 81.1,
-      "pullback_score": 94.0,
+      "pullback_score": 93.9,
       "stability_score": 9.0,
       "relative_score": 90.3,
       "reasons": [
@@ -2733,7 +2733,7 @@
       "drawdown": -10.8,
       "vol20": 20.45,
       "momentum_score": 81.3,
-      "pullback_score": 93.0,
+      "pullback_score": 92.9,
       "stability_score": 64.4,
       "relative_score": 85.7,
       "reasons": [
@@ -2926,11 +2926,11 @@
       "signal": "買い場候補",
       "mom5": 2.45,
       "mom20": 9.13,
-      "mom60": 14.06,
-      "mom120": 10.26,
+      "mom60": 14.14,
+      "mom120": 10.34,
       "drawdown": -1.27,
       "vol20": 27.64,
-      "momentum_score": 87.2,
+      "momentum_score": 87.3,
       "pullback_score": 38.0,
       "stability_score": 45.5,
       "relative_score": 86.7,
@@ -3243,6 +3243,7 @@
       "stability_score": 99.7,
       "relative_score": 35.1,
       "reasons": [
+        "日経平均より強い",
         "値動き比較的安定"
       ]
     },
@@ -3420,6 +3421,7 @@
       "stability_score": 99.9,
       "relative_score": 35.9,
       "reasons": [
+        "日経平均より強い",
         "値動き比較的安定"
       ]
     },
@@ -3590,7 +3592,7 @@
       "vol20": 14.93,
       "momentum_score": 80.2,
       "pullback_score": 47.0,
-      "stability_score": 80.8,
+      "stability_score": 80.9,
       "relative_score": 86.0,
       "reasons": [
         "短中期上向き",
@@ -3633,7 +3635,7 @@
       "drawdown": -10.92,
       "vol20": 71.91,
       "momentum_score": 90.2,
-      "pullback_score": 94.1,
+      "pullback_score": 94.0,
       "stability_score": 6.3,
       "relative_score": 46.1,
       "reasons": [
@@ -4054,7 +4056,7 @@
       "drawdown": -10.8,
       "vol20": 24.58,
       "momentum_score": 79.8,
-      "pullback_score": 93.1,
+      "pullback_score": 93.0,
       "stability_score": 52.4,
       "relative_score": 71.3,
       "reasons": [
@@ -4257,7 +4259,7 @@
       "drawdown": -11.61,
       "vol20": 27.31,
       "momentum_score": 46.3,
-      "pullback_score": 98.0,
+      "pullback_score": 97.9,
       "stability_score": 46.1,
       "relative_score": 90.1,
       "reasons": [
@@ -4519,7 +4521,7 @@
       "drawdown": -12.98,
       "vol20": 11.06,
       "momentum_score": 58.5,
-      "pullback_score": 94.8,
+      "pullback_score": 94.7,
       "stability_score": 88.5,
       "relative_score": 75.2,
       "reasons": [
@@ -4808,7 +4810,7 @@
       "drawdown": -9.63,
       "vol20": 21.85,
       "momentum_score": 74.0,
-      "pullback_score": 86.3,
+      "pullback_score": 86.4,
       "stability_score": 59.9,
       "relative_score": 63.7,
       "reasons": [
@@ -5027,7 +5029,7 @@
       "drawdown": -14.23,
       "vol20": 13.74,
       "momentum_score": 67.8,
-      "pullback_score": 87.1,
+      "pullback_score": 87.2,
       "stability_score": 83.3,
       "relative_score": 69.3,
       "reasons": [
@@ -5049,7 +5051,7 @@
       "mom120": -8.65,
       "drawdown": -9.93,
       "vol20": 24.35,
-      "momentum_score": 70.7,
+      "momentum_score": 70.8,
       "pullback_score": 88.1,
       "stability_score": 53.3,
       "relative_score": 75.6,
@@ -5318,7 +5320,7 @@
       "mom120": 5.6,
       "drawdown": -10.03,
       "vol20": 24.1,
-      "momentum_score": 64.4,
+      "momentum_score": 64.3,
       "pullback_score": 88.7,
       "stability_score": 53.7,
       "relative_score": 63.6,
@@ -5342,7 +5344,7 @@
       "drawdown": -11.7,
       "vol20": 19.61,
       "momentum_score": 62.6,
-      "pullback_score": 98.4,
+      "pullback_score": 98.3,
       "stability_score": 66.4,
       "relative_score": 62.6,
       "reasons": [
@@ -5431,7 +5433,7 @@
       "drawdown": -13.12,
       "vol20": 9.81,
       "momentum_score": 46.7,
-      "pullback_score": 93.9,
+      "pullback_score": 93.8,
       "stability_score": 90.5,
       "relative_score": 52.1,
       "reasons": [
@@ -5475,7 +5477,7 @@
       "mom120": -0.62,
       "drawdown": -7.32,
       "vol20": 4.85,
-      "momentum_score": 59.6,
+      "momentum_score": 59.5,
       "pullback_score": 72.3,
       "stability_score": 97.9,
       "relative_score": 66.3,
@@ -5695,7 +5697,7 @@
       "mom120": -0.67,
       "drawdown": -6.65,
       "vol20": 11.01,
-      "momentum_score": 64.0,
+      "momentum_score": 63.9,
       "pullback_score": 68.1,
       "stability_score": 88.6,
       "relative_score": 72.3,
@@ -5829,7 +5831,7 @@
       "drawdown": -9.8,
       "vol20": 16.09,
       "momentum_score": 62.3,
-      "pullback_score": 87.2,
+      "pullback_score": 87.3,
       "stability_score": 77.1,
       "relative_score": 63.9,
       "reasons": [
@@ -5907,10 +5909,33 @@
       ]
     },
     {
+      "ticker": "2481.T",
+      "name": "タウンニュース社",
+      "price": 666.0,
+      "score": 73.3,
+      "signal": "監視",
+      "mom5": 3.42,
+      "mom20": 4.06,
+      "mom60": 0.71,
+      "mom120": 0.12,
+      "drawdown": -12.14,
+      "vol20": 11.78,
+      "momentum_score": 64.5,
+      "pullback_score": 99.0,
+      "stability_score": 87.1,
+      "relative_score": 43.4,
+      "reasons": [
+        "短中期上向き",
+        "適度な押し目",
+        "日経平均より強い",
+        "値動き比較的安定"
+      ]
+    },
+    {
       "ticker": "1762.T",
       "name": "高松コンストラクショングループ",
       "price": 3875.0,
-      "score": 73.3,
+      "score": 73.2,
       "signal": "監視",
       "mom5": 3.89,
       "mom20": 7.04,
@@ -5918,7 +5943,7 @@
       "mom120": -8.58,
       "drawdown": -8.58,
       "vol20": 21.93,
-      "momentum_score": 70.8,
+      "momentum_score": 70.7,
       "pullback_score": 79.1,
       "stability_score": 59.5,
       "relative_score": 57.1,
@@ -5933,7 +5958,7 @@
       "ticker": "2669.T",
       "name": "カネ美食品",
       "price": 4000.0,
-      "score": 73.2,
+      "score": 73.1,
       "signal": "監視",
       "mom5": 0.76,
       "mom20": -0.5,
@@ -5955,7 +5980,7 @@
       "ticker": "4015.T",
       "name": "ペイクラウドホールディングス",
       "price": 544.0,
-      "score": 73.1,
+      "score": 73.0,
       "signal": "監視",
       "mom5": 4.02,
       "mom20": 6.46,
@@ -5976,7 +6001,7 @@
       "ticker": "2907.T",
       "name": "あじかん",
       "price": 1516.0,
-      "score": 73.0,
+      "score": 72.9,
       "signal": "監視",
       "mom5": -1.88,
       "mom20": -9.06,
@@ -5997,7 +6022,7 @@
       "ticker": "3245.T",
       "name": "ディア・ライフ",
       "price": 1092.0,
-      "score": 72.9,
+      "score": 72.8,
       "signal": "監視",
       "mom5": 2.06,
       "mom20": 1.96,
@@ -6020,7 +6045,7 @@
       "ticker": "3771.T",
       "name": "システムリサーチ",
       "price": 1835.0,
-      "score": 72.8,
+      "score": 72.7,
       "signal": "監視",
       "mom5": 2.34,
       "mom20": -0.49,
@@ -6043,7 +6068,7 @@
       "ticker": "2264.T",
       "name": "森永乳業",
       "price": 1195.0,
-      "score": 72.7,
+      "score": 72.6,
       "signal": "監視",
       "mom5": 1.49,
       "mom20": -5.01,
@@ -6052,36 +6077,13 @@
       "drawdown": -9.57,
       "vol20": 38.86,
       "momentum_score": 54.8,
-      "pullback_score": 86.0,
+      "pullback_score": 86.1,
       "stability_score": 23.1,
       "relative_score": 69.5,
       "reasons": [
         "適度な押し目",
         "日経平均より強い",
         "反転初動候補"
-      ]
-    },
-    {
-      "ticker": "2481.T",
-      "name": "タウンニュース社",
-      "price": 666.0,
-      "score": 72.6,
-      "signal": "監視",
-      "mom5": 3.42,
-      "mom20": 4.06,
-      "mom60": 0.39,
-      "mom120": -0.19,
-      "drawdown": -12.41,
-      "vol20": 11.78,
-      "momentum_score": 63.7,
-      "pullback_score": 97.9,
-      "stability_score": 87.1,
-      "relative_score": 42.0,
-      "reasons": [
-        "短中期上向き",
-        "適度な押し目",
-        "日経平均より強い",
-        "値動き比較的安定"
       ]
     },
     {
@@ -6233,7 +6235,7 @@
       "drawdown": -9.5,
       "vol20": 18.17,
       "momentum_score": 62.7,
-      "pullback_score": 85.4,
+      "pullback_score": 85.5,
       "stability_score": 71.5,
       "relative_score": 64.3,
       "reasons": [
@@ -6299,8 +6301,8 @@
       "mom120": -0.77,
       "drawdown": -12.34,
       "vol20": 24.94,
-      "momentum_score": 64.1,
-      "pullback_score": 98.1,
+      "momentum_score": 64.0,
+      "pullback_score": 98.0,
       "stability_score": 51.7,
       "relative_score": 64.4,
       "reasons": [
@@ -6390,7 +6392,7 @@
       "drawdown": -9.66,
       "vol20": 11.12,
       "momentum_score": 50.2,
-      "pullback_score": 86.5,
+      "pullback_score": 86.6,
       "stability_score": 88.2,
       "relative_score": 62.0,
       "reasons": [
@@ -6730,7 +6732,7 @@
       "drawdown": -14.51,
       "vol20": 28.2,
       "momentum_score": 45.8,
-      "pullback_score": 85.3,
+      "pullback_score": 85.4,
       "stability_score": 43.5,
       "relative_score": 77.3,
       "reasons": [
@@ -6798,7 +6800,7 @@
       "drawdown": -9.5,
       "vol20": 20.62,
       "momentum_score": 61.5,
-      "pullback_score": 85.5,
+      "pullback_score": 85.6,
       "stability_score": 63.6,
       "relative_score": 51.8,
       "reasons": [
@@ -6876,10 +6878,33 @@
       ]
     },
     {
+      "ticker": "1414.T",
+      "name": "ショーボンドホールディングス",
+      "price": 1311.5,
+      "score": 69.0,
+      "signal": "監視",
+      "mom5": 0.5,
+      "mom20": 3.76,
+      "mom60": 1.43,
+      "mom120": -3.99,
+      "drawdown": -12.58,
+      "vol20": 17.82,
+      "momentum_score": 55.9,
+      "pullback_score": 96.9,
+      "stability_score": 72.3,
+      "relative_score": 48.6,
+      "reasons": [
+        "短中期上向き",
+        "適度な押し目",
+        "日経平均より強い",
+        "値動き比較的安定"
+      ]
+    },
+    {
       "ticker": "2813.T",
       "name": "和弘食品",
       "price": 3955.0,
-      "score": 69.0,
+      "score": 68.9,
       "signal": "監視",
       "mom5": 0.13,
       "mom20": -0.63,
@@ -6887,7 +6912,7 @@
       "mom120": 26.67,
       "drawdown": -3.54,
       "vol20": 11.12,
-      "momentum_score": 64.2,
+      "momentum_score": 64.1,
       "pullback_score": 51.5,
       "stability_score": 88.3,
       "relative_score": 40.6,
@@ -6895,29 +6920,6 @@
         "日経平均より強い",
         "値動き比較的安定",
         "反転初動候補"
-      ]
-    },
-    {
-      "ticker": "1414.T",
-      "name": "ショーボンドホールディングス",
-      "price": 1311.5,
-      "score": 68.9,
-      "signal": "監視",
-      "mom5": 0.5,
-      "mom20": 3.76,
-      "mom60": 1.41,
-      "mom120": -4.01,
-      "drawdown": -12.6,
-      "vol20": 17.82,
-      "momentum_score": 55.9,
-      "pullback_score": 96.9,
-      "stability_score": 72.3,
-      "relative_score": 48.5,
-      "reasons": [
-        "短中期上向き",
-        "適度な押し目",
-        "日経平均より強い",
-        "値動き比較的安定"
       ]
     },
     {
@@ -7239,7 +7241,7 @@
       "drawdown": -12.24,
       "vol20": 16.31,
       "momentum_score": 56.1,
-      "pullback_score": 98.8,
+      "pullback_score": 98.7,
       "stability_score": 76.3,
       "relative_score": 45.6,
       "reasons": [
@@ -7373,7 +7375,7 @@
       "mom120": -6.12,
       "drawdown": -6.69,
       "vol20": 8.4,
-      "momentum_score": 59.7,
+      "momentum_score": 59.6,
       "pullback_score": 68.5,
       "stability_score": 92.9,
       "relative_score": 59.3,
@@ -7397,7 +7399,7 @@
       "drawdown": -10.99,
       "vol20": 30.37,
       "momentum_score": 37.9,
-      "pullback_score": 94.4,
+      "pullback_score": 94.3,
       "stability_score": 38.0,
       "relative_score": 63.2,
       "reasons": [
@@ -7463,7 +7465,7 @@
       "mom120": 2.2,
       "drawdown": -7.13,
       "vol20": 16.07,
-      "momentum_score": 63.9,
+      "momentum_score": 63.8,
       "pullback_score": 71.0,
       "stability_score": 77.2,
       "relative_score": 58.0,
@@ -7535,6 +7537,7 @@
       "relative_score": 36.3,
       "reasons": [
         "適度な押し目",
+        "日経平均より強い",
         "値動き比較的安定"
       ]
     },
@@ -7887,7 +7890,7 @@
       "mom120": -17.17,
       "drawdown": -21.28,
       "vol20": 14.48,
-      "momentum_score": 64.5,
+      "momentum_score": 64.4,
       "pullback_score": 45.6,
       "stability_score": 82.0,
       "relative_score": 68.3,
@@ -7931,9 +7934,9 @@
       "drawdown": -13.12,
       "vol20": 29.75,
       "momentum_score": 70.3,
-      "pullback_score": 93.7,
+      "pullback_score": 93.6,
       "stability_score": 39.5,
-      "relative_score": 42.8,
+      "relative_score": 42.7,
       "reasons": [
         "短中期上向き",
         "適度な押し目",
@@ -7953,7 +7956,7 @@
       "drawdown": -11.74,
       "vol20": 9.35,
       "momentum_score": 33.3,
-      "pullback_score": 98.6,
+      "pullback_score": 98.5,
       "stability_score": 91.3,
       "relative_score": 53.5,
       "reasons": [
@@ -8001,6 +8004,7 @@
       "relative_score": 35.0,
       "reasons": [
         "適度な押し目",
+        "日経平均より強い",
         "値動き比較的安定"
       ]
     },
@@ -8059,7 +8063,7 @@
       "mom120": -7.77,
       "drawdown": -7.77,
       "vol20": 18.5,
-      "momentum_score": 59.5,
+      "momentum_score": 59.4,
       "pullback_score": 75.3,
       "stability_score": 70.0,
       "relative_score": 58.7,
@@ -8298,7 +8302,7 @@
       "mom120": -1.15,
       "drawdown": -4.2,
       "vol20": 20.99,
-      "momentum_score": 59.2,
+      "momentum_score": 59.1,
       "pullback_score": 55.0,
       "stability_score": 62.3,
       "relative_score": 70.7,
@@ -8321,7 +8325,7 @@
       "drawdown": -13.24,
       "vol20": 13.17,
       "momentum_score": 43.8,
-      "pullback_score": 92.8,
+      "pullback_score": 92.7,
       "stability_score": 84.4,
       "relative_score": 31.6,
       "reasons": [
@@ -8388,7 +8392,7 @@
       "drawdown": -13.01,
       "vol20": 18.63,
       "momentum_score": 47.4,
-      "pullback_score": 94.5,
+      "pullback_score": 94.4,
       "stability_score": 69.7,
       "relative_score": 48.0,
       "reasons": [
@@ -8456,7 +8460,7 @@
       "drawdown": -11.01,
       "vol20": 21.68,
       "momentum_score": 52.6,
-      "pullback_score": 94.6,
+      "pullback_score": 94.5,
       "stability_score": 60.3,
       "relative_score": 48.9,
       "reasons": [
@@ -8677,7 +8681,7 @@
       "mom120": 4.85,
       "drawdown": -0.49,
       "vol20": 6.26,
-      "momentum_score": 63.8,
+      "momentum_score": 63.7,
       "pullback_score": 34.3,
       "stability_score": 95.1,
       "relative_score": 60.7,
@@ -8743,9 +8747,9 @@
       "drawdown": -9.75,
       "vol20": 5.74,
       "momentum_score": 36.2,
-      "pullback_score": 87.0,
+      "pullback_score": 87.1,
       "stability_score": 96.7,
-      "relative_score": 48.6,
+      "relative_score": 48.5,
       "reasons": [
         "適度な押し目",
         "日経平均より強い",
@@ -8939,7 +8943,7 @@
       "drawdown": -11.74,
       "vol20": 31.48,
       "momentum_score": 51.9,
-      "pullback_score": 98.7,
+      "pullback_score": 98.6,
       "stability_score": 35.8,
       "relative_score": 47.8,
       "reasons": [
@@ -8961,11 +8965,12 @@
       "drawdown": -10.76,
       "vol20": 12.76,
       "momentum_score": 42.1,
-      "pullback_score": 92.9,
+      "pullback_score": 92.8,
       "stability_score": 85.6,
       "relative_score": 34.8,
       "reasons": [
         "適度な押し目",
+        "日経平均より強い",
         "値動き比較的安定"
       ]
     },
@@ -9093,7 +9098,7 @@
       "mom120": -11.53,
       "drawdown": -19.71,
       "vol20": 15.21,
-      "momentum_score": 59.1,
+      "momentum_score": 59.0,
       "pullback_score": 55.9,
       "stability_score": 79.3,
       "relative_score": 66.5,
@@ -9138,7 +9143,7 @@
       "drawdown": -11.67,
       "vol20": 18.2,
       "momentum_score": 43.9,
-      "pullback_score": 98.2,
+      "pullback_score": 98.1,
       "stability_score": 71.4,
       "relative_score": 31.9,
       "reasons": [
@@ -9203,8 +9208,8 @@
       "mom120": 11.33,
       "drawdown": -9.75,
       "vol20": 20.5,
-      "momentum_score": 59.4,
-      "pullback_score": 86.9,
+      "momentum_score": 59.3,
+      "pullback_score": 87.0,
       "stability_score": 64.2,
       "relative_score": 27.8,
       "reasons": [
@@ -9686,7 +9691,7 @@
       "drawdown": -12.33,
       "vol20": 45.61,
       "momentum_score": 71.9,
-      "pullback_score": 98.3,
+      "pullback_score": 98.2,
       "stability_score": 16.1,
       "relative_score": 26.0,
       "reasons": [
@@ -9793,7 +9798,7 @@
       "mom120": -0.31,
       "drawdown": -7.57,
       "vol20": 7.09,
-      "momentum_score": 43.2,
+      "momentum_score": 43.3,
       "pullback_score": 74.0,
       "stability_score": 94.6,
       "relative_score": 39.3,
@@ -9950,7 +9955,7 @@
       "momentum_score": 41.6,
       "pullback_score": 64.9,
       "stability_score": 95.7,
-      "relative_score": 43.4,
+      "relative_score": 43.3,
       "reasons": [
         "適度な押し目",
         "日経平均より強い",
@@ -10282,6 +10287,7 @@
       "relative_score": 34.3,
       "reasons": [
         "適度な押し目",
+        "日経平均より強い",
         "値動き比較的安定"
       ]
     },
@@ -10363,9 +10369,9 @@
       "drawdown": -10.81,
       "vol20": 20.93,
       "momentum_score": 27.6,
-      "pullback_score": 93.2,
+      "pullback_score": 93.1,
       "stability_score": 62.7,
-      "relative_score": 18.7,
+      "relative_score": 18.8,
       "reasons": [
         "適度な押し目",
         "値動き比較的安定",
@@ -10568,10 +10574,31 @@
       ]
     },
     {
+      "ticker": "1764.T",
+      "name": "工藤建設",
+      "price": 2839.0,
+      "score": 52.2,
+      "signal": "監視",
+      "mom5": 6.13,
+      "mom20": 5.54,
+      "mom60": -4.26,
+      "mom120": -7.11,
+      "drawdown": -12.97,
+      "vol20": 24.95,
+      "momentum_score": 59.7,
+      "pullback_score": 94.9,
+      "stability_score": 51.6,
+      "relative_score": 24.8,
+      "reasons": [
+        "適度な押し目",
+        "値動き比較的安定"
+      ]
+    },
+    {
       "ticker": "2136.T",
       "name": "ヒップ",
       "price": 1410.0,
-      "score": 52.2,
+      "score": 52.1,
       "signal": "監視",
       "mom5": -3.09,
       "mom20": -4.08,
@@ -10593,7 +10620,7 @@
       "ticker": "2415.T",
       "name": "ヒューマンホールディングス",
       "price": 1624.0,
-      "score": 52.1,
+      "score": 52.0,
       "signal": "監視",
       "mom5": 0.62,
       "mom20": 3.05,
@@ -10616,7 +10643,7 @@
       "ticker": "1375.T",
       "name": "ユキグニファクトリー",
       "price": 1117.0,
-      "score": 52.0,
+      "score": 51.9,
       "signal": "監視",
       "mom5": -3.21,
       "mom20": -3.96,
@@ -10638,7 +10665,7 @@
       "ticker": "2186.T",
       "name": "ソーバル",
       "price": 916.0,
-      "score": 51.9,
+      "score": 51.8,
       "signal": "監視",
       "mom5": 0.0,
       "mom20": 0.88,
@@ -10660,7 +10687,7 @@
       "ticker": "3796.T",
       "name": "いい生活",
       "price": 290.0,
-      "score": 51.8,
+      "score": 51.7,
       "signal": "監視",
       "mom5": -1.02,
       "mom20": 8.21,
@@ -10682,7 +10709,7 @@
       "ticker": "3661.T",
       "name": "エムアップホールディングス",
       "price": 801.0,
-      "score": 51.7,
+      "score": 51.6,
       "signal": "監視",
       "mom5": 3.35,
       "mom20": 8.24,
@@ -10703,7 +10730,7 @@
       "ticker": "2594.T",
       "name": "キーコーヒー",
       "price": 1998.0,
-      "score": 51.6,
+      "score": 51.5,
       "signal": "監視",
       "mom5": 1.22,
       "mom20": 0.45,
@@ -10725,7 +10752,7 @@
       "ticker": "3660.T",
       "name": "アイスタイル",
       "price": 441.0,
-      "score": 51.5,
+      "score": 51.4,
       "signal": "監視",
       "mom5": 1.38,
       "mom20": 9.43,
@@ -10746,7 +10773,7 @@
       "ticker": "2464.T",
       "name": "Ａｏｂａ‐ＢＢＴ",
       "price": 343.0,
-      "score": 51.4,
+      "score": 51.3,
       "signal": "監視",
       "mom5": 4.26,
       "mom20": 7.19,
@@ -10768,7 +10795,7 @@
       "ticker": "3958.T",
       "name": "笹徳印刷",
       "price": 549.0,
-      "score": 51.3,
+      "score": 51.2,
       "signal": "監視",
       "mom5": 0.0,
       "mom20": 0.37,
@@ -10790,7 +10817,7 @@
       "ticker": "2211.T",
       "name": "不二家",
       "price": 2408.0,
-      "score": 51.2,
+      "score": 51.1,
       "signal": "監視",
       "mom5": 0.0,
       "mom20": -1.07,
@@ -10812,7 +10839,7 @@
       "ticker": "2424.T",
       "name": "ブラス",
       "price": 602.0,
-      "score": 51.1,
+      "score": 51.0,
       "signal": "監視",
       "mom5": 0.5,
       "mom20": -1.82,
@@ -10821,7 +10848,7 @@
       "drawdown": -14.49,
       "vol20": 17.81,
       "momentum_score": 38.8,
-      "pullback_score": 85.6,
+      "pullback_score": 85.7,
       "stability_score": 72.5,
       "relative_score": 49.6,
       "reasons": [
@@ -10835,7 +10862,7 @@
       "ticker": "2932.T",
       "name": "ＳＴＩフードホールディングス",
       "price": 1082.0,
-      "score": 51.0,
+      "score": 50.9,
       "signal": "監視",
       "mom5": -2.35,
       "mom20": -1.73,
@@ -10856,7 +10883,7 @@
       "ticker": "3951.T",
       "name": "朝日印刷",
       "price": 889.0,
-      "score": 50.9,
+      "score": 50.8,
       "signal": "監視",
       "mom5": 1.25,
       "mom20": 0.68,
@@ -10864,7 +10891,7 @@
       "mom120": 0.94,
       "drawdown": -1.79,
       "vol20": 11.67,
-      "momentum_score": 59.0,
+      "momentum_score": 58.9,
       "pullback_score": 41.4,
       "stability_score": 87.4,
       "relative_score": 61.1,
@@ -10878,7 +10905,7 @@
       "ticker": "1724.T",
       "name": "シンクレイヤ",
       "price": 703.0,
-      "score": 50.8,
+      "score": 50.7,
       "signal": "監視",
       "mom5": 2.63,
       "mom20": 2.33,
@@ -10899,7 +10926,7 @@
       "ticker": "2497.T",
       "name": "ユナイテッド",
       "price": 521.0,
-      "score": 50.7,
+      "score": 50.6,
       "signal": "監視",
       "mom5": 1.17,
       "mom20": 0.19,
@@ -10921,7 +10948,7 @@
       "ticker": "2882.T",
       "name": "イートアンドホールディングス",
       "price": 2061.0,
-      "score": 50.6,
+      "score": 50.5,
       "signal": "監視",
       "mom5": 1.68,
       "mom20": 1.28,
@@ -10943,7 +10970,7 @@
       "ticker": "4004.T",
       "name": "レゾナック・ホールディングス",
       "price": 16335.0,
-      "score": 50.5,
+      "score": 50.4,
       "signal": "監視",
       "mom5": 16.18,
       "mom20": 1.15,
@@ -10963,7 +10990,7 @@
       "ticker": "2676.T",
       "name": "高千穂交易",
       "price": 2055.0,
-      "score": 50.4,
+      "score": 50.3,
       "signal": "監視",
       "mom5": 1.43,
       "mom20": -5.3,
@@ -10986,7 +11013,7 @@
       "ticker": "3143.T",
       "name": "オーウイル",
       "price": 700.0,
-      "score": 50.3,
+      "score": 50.2,
       "signal": "監視",
       "mom5": 2.49,
       "mom20": 0.29,
@@ -11009,7 +11036,7 @@
       "ticker": "3204.T",
       "name": "トーア紡コーポレーション",
       "price": 504.0,
-      "score": 50.2,
+      "score": 50.1,
       "signal": "監視",
       "mom5": 1.41,
       "mom20": -0.4,
@@ -11018,7 +11045,7 @@
       "drawdown": -9.52,
       "vol20": 21.96,
       "momentum_score": 36.8,
-      "pullback_score": 85.7,
+      "pullback_score": 85.8,
       "stability_score": 59.3,
       "relative_score": 29.2,
       "reasons": [
@@ -11031,8 +11058,8 @@
       "ticker": "2916.T",
       "name": "仙波糖化工業",
       "price": 739.0,
-      "score": 50.1,
-      "signal": "監視",
+      "score": 49.9,
+      "signal": "見送り",
       "mom5": 2.78,
       "mom20": -0.67,
       "mom60": 3.79,
@@ -11047,27 +11074,6 @@
         "日経平均より強い",
         "値動き比較的安定",
         "反転初動候補"
-      ]
-    },
-    {
-      "ticker": "1764.T",
-      "name": "工藤建設",
-      "price": 2839.0,
-      "score": 49.9,
-      "signal": "見送り",
-      "mom5": 6.13,
-      "mom20": 5.54,
-      "mom60": -4.6,
-      "mom120": -7.44,
-      "drawdown": -13.28,
-      "vol20": 24.95,
-      "momentum_score": 58.8,
-      "pullback_score": 92.7,
-      "stability_score": 51.6,
-      "relative_score": 23.8,
-      "reasons": [
-        "適度な押し目",
-        "値動き比較的安定"
       ]
     },
     {
@@ -11152,7 +11158,7 @@
       "stability_score": 34.7,
       "relative_score": 34.0,
       "reasons": [
-        "市場内の相対順位で抽出"
+        "日経平均より強い"
       ]
     },
     {
@@ -11173,6 +11179,7 @@
       "relative_score": 34.6,
       "reasons": [
         "適度な押し目",
+        "日経平均より強い",
         "値動き比較的安定"
       ]
     },
@@ -11238,6 +11245,7 @@
       "relative_score": 36.1,
       "reasons": [
         "適度な押し目",
+        "日経平均より強い",
         "値動き比較的安定"
       ]
     },
@@ -11276,7 +11284,7 @@
       "drawdown": -14.4,
       "vol20": 17.87,
       "momentum_score": 31.0,
-      "pullback_score": 86.2,
+      "pullback_score": 86.3,
       "stability_score": 72.1,
       "relative_score": 33.7,
       "reasons": [
@@ -11297,11 +11305,12 @@
       "drawdown": -9.7,
       "vol20": 19.02,
       "momentum_score": 40.2,
-      "pullback_score": 86.6,
+      "pullback_score": 86.7,
       "stability_score": 68.6,
       "relative_score": 35.7,
       "reasons": [
         "適度な押し目",
+        "日経平均より強い",
         "値動き比較的安定"
       ]
     },
@@ -11361,7 +11370,7 @@
       "mom120": 14.27,
       "drawdown": -24.49,
       "vol20": 23.09,
-      "momentum_score": 64.3,
+      "momentum_score": 64.2,
       "pullback_score": 27.8,
       "stability_score": 56.0,
       "relative_score": 66.6,
@@ -11456,6 +11465,7 @@
       "relative_score": 34.1,
       "reasons": [
         "適度な押し目",
+        "日経平均より強い",
         "値動き比較的安定"
       ]
     },
@@ -11621,7 +11631,7 @@
       "mom120": -3.3,
       "drawdown": -11.57,
       "vol20": 37.2,
-      "momentum_score": 21.9,
+      "momentum_score": 22.0,
       "pullback_score": 97.6,
       "stability_score": 25.6,
       "relative_score": 29.0,
@@ -11861,7 +11871,7 @@
       "drawdown": -11.03,
       "vol20": 11.53,
       "momentum_score": 27.1,
-      "pullback_score": 94.9,
+      "pullback_score": 94.8,
       "stability_score": 87.7,
       "relative_score": 17.6,
       "reasons": [
@@ -11969,7 +11979,7 @@
       "drawdown": -14.42,
       "vol20": 13.24,
       "momentum_score": 32.3,
-      "pullback_score": 86.1,
+      "pullback_score": 86.2,
       "stability_score": 84.1,
       "relative_score": 33.8,
       "reasons": [
@@ -12011,7 +12021,7 @@
       "mom120": 5.1,
       "drawdown": -18.73,
       "vol20": 38.09,
-      "momentum_score": 21.6,
+      "momentum_score": 21.7,
       "pullback_score": 60.2,
       "stability_score": 24.5,
       "relative_score": 73.9,
@@ -12102,6 +12112,7 @@
       "relative_score": 34.4,
       "reasons": [
         "適度な押し目",
+        "日経平均より強い",
         "値動き比較的安定"
       ]
     },
@@ -12163,7 +12174,7 @@
       "drawdown": -14.19,
       "vol20": 12.36,
       "momentum_score": 26.0,
-      "pullback_score": 87.3,
+      "pullback_score": 87.4,
       "stability_score": 86.5,
       "relative_score": 30.5,
       "reasons": [
@@ -12443,7 +12454,7 @@
       "mom120": -8.29,
       "drawdown": -21.18,
       "vol20": 17.46,
-      "momentum_score": 59.3,
+      "momentum_score": 59.2,
       "pullback_score": 46.3,
       "stability_score": 73.5,
       "relative_score": 41.2,
@@ -12551,8 +12562,8 @@
       "mom120": 15.01,
       "drawdown": -13.12,
       "vol20": 28.84,
-      "momentum_score": 21.7,
-      "pullback_score": 93.6,
+      "momentum_score": 21.8,
+      "pullback_score": 93.5,
       "stability_score": 41.8,
       "relative_score": 20.6,
       "reasons": [
@@ -12639,7 +12650,7 @@
       "momentum_score": 47.5,
       "pullback_score": 44.3,
       "stability_score": 87.0,
-      "relative_score": 42.3,
+      "relative_score": 42.2,
       "reasons": [
         "短中期上向き",
         "日経平均より強い",
@@ -12663,6 +12674,7 @@
       "stability_score": 98.1,
       "relative_score": 36.5,
       "reasons": [
+        "日経平均より強い",
         "値動き比較的安定"
       ]
     },
@@ -12766,7 +12778,7 @@
       "drawdown": -10.88,
       "vol20": 27.28,
       "momentum_score": 27.0,
-      "pullback_score": 93.8,
+      "pullback_score": 93.7,
       "stability_score": 46.2,
       "relative_score": 51.3,
       "reasons": [
@@ -12853,7 +12865,7 @@
       "momentum_score": 53.0,
       "pullback_score": 71.2,
       "stability_score": 40.9,
-      "relative_score": 42.4,
+      "relative_score": 42.3,
       "reasons": [
         "短中期上向き",
         "適度な押し目",
@@ -13002,7 +13014,7 @@
       "momentum_score": 33.1,
       "pullback_score": 84.7,
       "stability_score": 29.0,
-      "relative_score": 42.6,
+      "relative_score": 42.5,
       "reasons": [
         "適度な押し目",
         "日経平均より強い",
@@ -13063,7 +13075,7 @@
       "mom120": 4.4,
       "drawdown": -2.11,
       "vol20": 30.39,
-      "momentum_score": 58.9,
+      "momentum_score": 58.8,
       "pullback_score": 42.6,
       "stability_score": 37.9,
       "relative_score": 58.2,
@@ -13153,6 +13165,7 @@
       "stability_score": 64.7,
       "relative_score": 36.0,
       "reasons": [
+        "日経平均より強い",
         "値動き比較的安定"
       ]
     },
@@ -13218,6 +13231,7 @@
       "relative_score": 34.9,
       "reasons": [
         "適度な押し目",
+        "日経平均より強い",
         "値動き比較的安定"
       ]
     },
@@ -13383,7 +13397,7 @@
       "drawdown": -14.36,
       "vol20": 16.01,
       "momentum_score": 21.1,
-      "pullback_score": 86.4,
+      "pullback_score": 86.5,
       "stability_score": 77.4,
       "relative_score": 33.5,
       "reasons": [
@@ -13450,6 +13464,7 @@
       "relative_score": 34.2,
       "reasons": [
         "適度な押し目",
+        "日経平均より強い",
         "値動き比較的安定"
       ]
     },
@@ -13510,7 +13525,7 @@
       "momentum_score": 26.5,
       "pullback_score": 99.4,
       "stability_score": 22.5,
-      "relative_score": 43.3,
+      "relative_score": 43.2,
       "reasons": [
         "適度な押し目",
         "日経平均より強い"
@@ -13636,7 +13651,7 @@
       "drawdown": -13.18,
       "vol20": 40.37,
       "momentum_score": 43.6,
-      "pullback_score": 93.4,
+      "pullback_score": 93.3,
       "stability_score": 21.1,
       "relative_score": 31.4,
       "reasons": [
@@ -13658,7 +13673,7 @@
       "momentum_score": 36.3,
       "pullback_score": 61.9,
       "stability_score": 84.6,
-      "relative_score": 24.8,
+      "relative_score": 24.7,
       "reasons": [
         "適度な押し目",
         "値動き比較的安定"
@@ -13677,7 +13692,7 @@
       "drawdown": -13.18,
       "vol20": 20.87,
       "momentum_score": 17.8,
-      "pullback_score": 93.3,
+      "pullback_score": 93.2,
       "stability_score": 62.9,
       "relative_score": 21.3,
       "reasons": [
@@ -13725,6 +13740,7 @@
       "relative_score": 35.4,
       "reasons": [
         "適度な押し目",
+        "日経平均より強い",
         "値動き比較的安定",
         "反転初動候補"
       ]
@@ -13829,7 +13845,7 @@
       "momentum_score": 28.9,
       "pullback_score": 66.9,
       "stability_score": 91.8,
-      "relative_score": 24.3,
+      "relative_score": 24.2,
       "reasons": [
         "適度な押し目",
         "値動き比較的安定"
@@ -13936,7 +13952,7 @@
       "momentum_score": 23.2,
       "pullback_score": 84.9,
       "stability_score": 45.4,
-      "relative_score": 42.2,
+      "relative_score": 42.1,
       "reasons": [
         "適度な押し目",
         "日経平均より強い"
@@ -14049,31 +14065,10 @@
       ]
     },
     {
-      "ticker": "3439.T",
-      "name": "三ツ知",
-      "price": 660.0,
-      "score": 35.9,
-      "signal": "見送り",
-      "mom5": -2.08,
-      "mom20": -2.08,
-      "mom60": -7.1,
-      "mom120": 2.73,
-      "drawdown": -14.13,
-      "vol20": 14.89,
-      "momentum_score": 23.0,
-      "pullback_score": 87.5,
-      "stability_score": 80.9,
-      "relative_score": 19.1,
-      "reasons": [
-        "適度な押し目",
-        "値動き比較的安定"
-      ]
-    },
-    {
       "ticker": "3908.T",
       "name": "コラボス",
       "price": 344.0,
-      "score": 35.8,
+      "score": 35.9,
       "signal": "見送り",
       "mom5": 1.18,
       "mom20": 1.47,
@@ -14095,7 +14090,7 @@
       "ticker": "3954.T",
       "name": "昭和パックス",
       "price": 3020.0,
-      "score": 35.7,
+      "score": 35.8,
       "signal": "見送り",
       "mom5": 7.86,
       "mom20": 5.78,
@@ -14104,7 +14099,7 @@
       "drawdown": -10.94,
       "vol20": 68.06,
       "momentum_score": 69.5,
-      "pullback_score": 94.2,
+      "pullback_score": 94.1,
       "stability_score": 6.6,
       "relative_score": 31.3,
       "reasons": [
@@ -14115,7 +14110,7 @@
       "ticker": "3815.T",
       "name": "メディア工房",
       "price": 450.0,
-      "score": 35.6,
+      "score": 35.7,
       "signal": "見送り",
       "mom5": 1.58,
       "mom20": 1.12,
@@ -14137,7 +14132,7 @@
       "ticker": "2217.T",
       "name": "モロゾフ",
       "price": 1496.0,
-      "score": 35.5,
+      "score": 35.6,
       "signal": "見送り",
       "mom5": -0.27,
       "mom20": -3.81,
@@ -14151,6 +14146,7 @@
       "relative_score": 34.5,
       "reasons": [
         "適度な押し目",
+        "日経平均より強い",
         "値動き比較的安定"
       ]
     },
@@ -14158,7 +14154,7 @@
       "ticker": "1925.T",
       "name": "大和ハウス工業",
       "price": 4563.0,
-      "score": 35.4,
+      "score": 35.5,
       "signal": "見送り",
       "mom5": -0.46,
       "mom20": 1.26,
@@ -14169,7 +14165,7 @@
       "momentum_score": 31.7,
       "pullback_score": 62.2,
       "stability_score": 53.0,
-      "relative_score": 42.9,
+      "relative_score": 42.8,
       "reasons": [
         "短中期上向き",
         "適度な押し目",
@@ -14181,7 +14177,7 @@
       "ticker": "1811.T",
       "name": "錢高組",
       "price": 8140.0,
-      "score": 35.3,
+      "score": 35.4,
       "signal": "見送り",
       "mom5": 0.25,
       "mom20": -0.61,
@@ -14202,7 +14198,7 @@
       "ticker": "1926.T",
       "name": "ライト工業",
       "price": 3780.0,
-      "score": 35.2,
+      "score": 35.3,
       "signal": "見送り",
       "mom5": 1.89,
       "mom20": -6.55,
@@ -14211,7 +14207,7 @@
       "drawdown": -10.83,
       "vol20": 20.75,
       "momentum_score": 19.2,
-      "pullback_score": 93.5,
+      "pullback_score": 93.4,
       "stability_score": 63.0,
       "relative_score": 17.7,
       "reasons": [
@@ -14224,7 +14220,7 @@
       "ticker": "1401.T",
       "name": "エムビーエス",
       "price": 1298.0,
-      "score": 35.1,
+      "score": 35.2,
       "signal": "見送り",
       "mom5": 2.53,
       "mom20": 0.08,
@@ -14246,7 +14242,7 @@
       "ticker": "3945.T",
       "name": "スーパーバッグ",
       "price": 2243.0,
-      "score": 35.0,
+      "score": 35.1,
       "signal": "見送り",
       "mom5": -1.19,
       "mom20": 0.45,
@@ -14268,7 +14264,7 @@
       "ticker": "3416.T",
       "name": "ピクスタ",
       "price": 838.0,
-      "score": 34.9,
+      "score": 35.0,
       "signal": "見送り",
       "mom5": -0.48,
       "mom20": 0.6,
@@ -14289,7 +14285,7 @@
       "ticker": "3059.T",
       "name": "ヒラキ",
       "price": 711.0,
-      "score": 34.8,
+      "score": 34.9,
       "signal": "見送り",
       "mom5": 0.28,
       "mom20": -0.14,
@@ -14311,7 +14307,7 @@
       "ticker": "4053.T",
       "name": "Ｓｕｎ　Ａｓｔｅｒｉｓｋ",
       "price": 443.0,
-      "score": 34.7,
+      "score": 34.8,
       "signal": "見送り",
       "mom5": -2.85,
       "mom20": 0.45,
@@ -14324,14 +14320,15 @@
       "stability_score": 47.7,
       "relative_score": 36.6,
       "reasons": [
-        "適度な押し目"
+        "適度な押し目",
+        "日経平均より強い"
       ]
     },
     {
       "ticker": "1447.T",
       "name": "ＳＡＡＦホールディングス",
       "price": 354.0,
-      "score": 34.6,
+      "score": 34.7,
       "signal": "見送り",
       "mom5": -1.94,
       "mom20": -13.02,
@@ -14351,7 +14348,7 @@
       "ticker": "3798.T",
       "name": "ＵＬＳグループ",
       "price": 557.0,
-      "score": 34.5,
+      "score": 34.6,
       "signal": "見送り",
       "mom5": 0.91,
       "mom20": 1.27,
@@ -14373,7 +14370,7 @@
       "ticker": "3443.T",
       "name": "川田テクノロジーズ",
       "price": 1352.0,
-      "score": 34.4,
+      "score": 34.5,
       "signal": "見送り",
       "mom5": 4.48,
       "mom20": 1.2,
@@ -14381,7 +14378,7 @@
       "mom120": -22.94,
       "drawdown": -25.17,
       "vol20": 22.86,
-      "momentum_score": 43.3,
+      "momentum_score": 43.2,
       "pullback_score": 26.4,
       "stability_score": 56.7,
       "relative_score": 53.8,
@@ -14395,7 +14392,7 @@
       "ticker": "3445.T",
       "name": "ＲＳ　Ｔｅｃｈｎｏｌｏｇｉｅｓ",
       "price": 6840.0,
-      "score": 34.3,
+      "score": 34.4,
       "signal": "見送り",
       "mom5": 7.21,
       "mom20": -13.75,
@@ -14417,7 +14414,7 @@
       "ticker": "3392.T",
       "name": "デリカフーズホールディングス",
       "price": 825.0,
-      "score": 34.2,
+      "score": 34.3,
       "signal": "見送り",
       "mom5": -1.79,
       "mom20": -3.51,
@@ -14425,7 +14422,7 @@
       "mom120": -6.84,
       "drawdown": -16.4,
       "vol20": 20.94,
-      "momentum_score": 22.5,
+      "momentum_score": 22.6,
       "pullback_score": 74.4,
       "stability_score": 62.6,
       "relative_score": 29.1,
@@ -14438,7 +14435,7 @@
       "ticker": "1605.T",
       "name": "ＩＮＰＥＸ",
       "price": 3612.0,
-      "score": 34.1,
+      "score": 34.2,
       "signal": "見送り",
       "mom5": 2.64,
       "mom20": 7.47,
@@ -14452,6 +14449,27 @@
       "relative_score": 20.3,
       "reasons": [
         "市場内の相対順位で抽出"
+      ]
+    },
+    {
+      "ticker": "3439.T",
+      "name": "三ツ知",
+      "price": 657.0,
+      "score": 34.1,
+      "signal": "見送り",
+      "mom5": -2.52,
+      "mom20": -2.52,
+      "mom60": -7.52,
+      "mom120": 2.26,
+      "drawdown": -14.52,
+      "vol20": 14.94,
+      "momentum_score": 21.5,
+      "pullback_score": 85.3,
+      "stability_score": 80.8,
+      "relative_score": 18.4,
+      "reasons": [
+        "適度な押し目",
+        "値動き比較的安定"
       ]
     },
     {
@@ -14511,7 +14529,7 @@
       "momentum_score": 32.8,
       "pullback_score": 74.7,
       "stability_score": 68.5,
-      "relative_score": 18.5,
+      "relative_score": 18.6,
       "reasons": [
         "適度な押し目",
         "値動き比較的安定"
@@ -14554,7 +14572,7 @@
       "momentum_score": 19.6,
       "pullback_score": 59.2,
       "stability_score": 81.3,
-      "relative_score": 24.0,
+      "relative_score": 23.9,
       "reasons": [
         "適度な押し目",
         "値動き比較的安定",
@@ -14595,8 +14613,8 @@
       "mom120": -6.71,
       "drawdown": -13.03,
       "vol20": 26.87,
-      "momentum_score": 22.7,
-      "pullback_score": 94.3,
+      "momentum_score": 22.8,
+      "pullback_score": 94.2,
       "stability_score": 47.3,
       "relative_score": 22.1,
       "reasons": [
@@ -14639,7 +14657,7 @@
       "momentum_score": 20.9,
       "pullback_score": 80.4,
       "stability_score": 86.1,
-      "relative_score": 18.9,
+      "relative_score": 19.0,
       "reasons": [
         "適度な押し目",
         "値動き比較的安定"
@@ -14679,7 +14697,7 @@
       "drawdown": -11.79,
       "vol20": 25.81,
       "momentum_score": 14.9,
-      "pullback_score": 98.9,
+      "pullback_score": 98.8,
       "stability_score": 50.1,
       "relative_score": 20.7,
       "reasons": [
@@ -14741,7 +14759,7 @@
       "drawdown": -14.26,
       "vol20": 48.64,
       "momentum_score": 31.9,
-      "pullback_score": 86.7,
+      "pullback_score": 86.8,
       "stability_score": 13.9,
       "relative_score": 18.2,
       "reasons": [
@@ -14824,7 +14842,7 @@
       "drawdown": -14.43,
       "vol20": 35.8,
       "momentum_score": 32.9,
-      "pullback_score": 85.9,
+      "pullback_score": 86.0,
       "stability_score": 27.3,
       "relative_score": 20.8,
       "reasons": [
@@ -14843,7 +14861,7 @@
       "mom120": -4.28,
       "drawdown": -7.59,
       "vol20": 28.95,
-      "momentum_score": 22.4,
+      "momentum_score": 22.5,
       "pullback_score": 74.3,
       "stability_score": 41.5,
       "relative_score": 33.3,
@@ -14905,10 +14923,10 @@
       "mom120": -13.92,
       "drawdown": -15.56,
       "vol20": 26.01,
-      "momentum_score": 22.6,
+      "momentum_score": 22.7,
       "pullback_score": 78.8,
       "stability_score": 49.7,
-      "relative_score": 24.7,
+      "relative_score": 24.6,
       "reasons": [
         "適度な押し目"
       ]
@@ -15092,10 +15110,10 @@
       "mom120": 1.76,
       "drawdown": -11.47,
       "vol20": 34.61,
-      "momentum_score": 22.9,
+      "momentum_score": 23.0,
       "pullback_score": 97.0,
       "stability_score": 29.2,
-      "relative_score": 24.5,
+      "relative_score": 24.4,
       "reasons": [
         "適度な押し目",
         "反転初動候補"
@@ -15158,7 +15176,7 @@
       "momentum_score": 20.8,
       "pullback_score": 61.1,
       "stability_score": 39.2,
-      "relative_score": 43.2,
+      "relative_score": 43.1,
       "reasons": [
         "適度な押し目",
         "日経平均より強い",
@@ -15323,7 +15341,7 @@
       "drawdown": -11.01,
       "vol20": 23.41,
       "momentum_score": 15.6,
-      "pullback_score": 94.7,
+      "pullback_score": 94.6,
       "stability_score": 55.3,
       "relative_score": 14.5,
       "reasons": [
@@ -15387,7 +15405,7 @@
       "momentum_score": 25.5,
       "pullback_score": 28.1,
       "stability_score": 64.5,
-      "relative_score": 43.0,
+      "relative_score": 42.9,
       "reasons": [
         "日経平均より強い",
         "値動き比較的安定"
@@ -15742,7 +15760,7 @@
       "drawdown": -9.75,
       "vol20": 25.02,
       "momentum_score": 14.0,
-      "pullback_score": 86.8,
+      "pullback_score": 86.9,
       "stability_score": 51.3,
       "relative_score": 22.5,
       "reasons": [
@@ -16032,7 +16050,7 @@
       "momentum_score": 36.0,
       "pullback_score": 26.0,
       "stability_score": 45.2,
-      "relative_score": 18.8,
+      "relative_score": 18.9,
       "reasons": [
         "市場内の相対順位で抽出"
       ]
@@ -16052,7 +16070,7 @@
       "momentum_score": 46.4,
       "pullback_score": 15.2,
       "stability_score": 88.4,
-      "relative_score": 42.1,
+      "relative_score": 42.0,
       "reasons": [
         "短中期上向き",
         "日経平均より強い",
@@ -16112,7 +16130,7 @@
       "mom120": -19.9,
       "drawdown": -21.27,
       "vol20": 33.95,
-      "momentum_score": 22.3,
+      "momentum_score": 22.4,
       "pullback_score": 45.8,
       "stability_score": 30.4,
       "relative_score": 27.5,
@@ -16133,7 +16151,7 @@
       "drawdown": -12.28,
       "vol20": 29.16,
       "momentum_score": 10.8,
-      "pullback_score": 98.5,
+      "pullback_score": 98.4,
       "stability_score": 40.5,
       "relative_score": 22.3,
       "reasons": [
@@ -16155,7 +16173,7 @@
       "momentum_score": 35.3,
       "pullback_score": 23.8,
       "stability_score": 50.9,
-      "relative_score": 18.6,
+      "relative_score": 18.7,
       "reasons": [
         "値動き比較的安定"
       ]
@@ -16198,7 +16216,7 @@
       "stability_score": 21.6,
       "relative_score": 35.8,
       "reasons": [
-        "市場内の相対順位で抽出"
+        "日経平均より強い"
       ]
     },
     {
@@ -16339,7 +16357,7 @@
       "momentum_score": 46.1,
       "pullback_score": 20.5,
       "stability_score": 33.3,
-      "relative_score": 43.1,
+      "relative_score": 43.0,
       "reasons": [
         "短中期上向き",
         "日経平均より強い"
@@ -16479,7 +16497,7 @@
       "mom120": -19.29,
       "drawdown": -27.58,
       "vol20": 12.03,
-      "momentum_score": 22.2,
+      "momentum_score": 22.3,
       "pullback_score": 23.5,
       "stability_score": 86.9,
       "relative_score": 23.3,
@@ -16566,6 +16584,7 @@
       "stability_score": 61.3,
       "relative_score": 36.4,
       "reasons": [
+        "日経平均より強い",
         "値動き比較的安定"
       ]
     },
@@ -16849,7 +16868,7 @@
       "mom120": -21.22,
       "drawdown": -21.22,
       "vol20": 26.49,
-      "momentum_score": 22.1,
+      "momentum_score": 22.2,
       "pullback_score": 46.0,
       "stability_score": 48.0,
       "relative_score": 10.0,
@@ -17036,7 +17055,7 @@
       "stability_score": 13.2,
       "relative_score": 35.2,
       "reasons": [
-        "市場内の相対順位で抽出"
+        "日経平均より強い"
       ]
     },
     {
@@ -17681,7 +17700,7 @@
       "momentum_score": 15.0,
       "pullback_score": 19.0,
       "stability_score": 72.2,
-      "relative_score": 24.6,
+      "relative_score": 24.5,
       "reasons": [
         "値動き比較的安定"
       ]
@@ -17865,7 +17884,7 @@
       "momentum_score": 12.0,
       "pullback_score": 23.6,
       "stability_score": 57.2,
-      "relative_score": 18.4,
+      "relative_score": 18.5,
       "reasons": [
         "値動き比較的安定",
         "反転初動候補"
@@ -17949,6 +17968,7 @@
       "stability_score": 38.1,
       "relative_score": 35.6,
       "reasons": [
+        "日経平均より強い",
         "反転初動候補"
       ]
     },
@@ -18085,7 +18105,7 @@
       "mom120": -9.16,
       "drawdown": -31.27,
       "vol20": 28.07,
-      "momentum_score": 22.8,
+      "momentum_score": 22.9,
       "pullback_score": 19.6,
       "stability_score": 43.8,
       "relative_score": 13.3,
@@ -18188,7 +18208,7 @@
       "momentum_score": 14.7,
       "pullback_score": 14.9,
       "stability_score": 28.3,
-      "relative_score": 42.7,
+      "relative_score": 42.6,
       "reasons": [
         "日経平均より強い",
         "反転初動候補"
@@ -18654,7 +18674,7 @@
       "momentum_score": 18.0,
       "pullback_score": 21.4,
       "stability_score": 4.0,
-      "relative_score": 23.9,
+      "relative_score": 23.8,
       "reasons": [
         "反転初動候補"
       ]
@@ -18796,6 +18816,7 @@
       "stability_score": 15.8,
       "relative_score": 35.3,
       "reasons": [
+        "日経平均より強い",
         "反転初動候補"
       ]
     },
@@ -18877,6 +18898,7 @@
       "stability_score": 76.8,
       "relative_score": 36.2,
       "reasons": [
+        "日経平均より強い",
         "値動き比較的安定"
       ]
     },
@@ -18915,7 +18937,7 @@
       "momentum_score": 16.8,
       "pullback_score": 8.1,
       "stability_score": 75.8,
-      "relative_score": 19.0,
+      "relative_score": 19.1,
       "reasons": [
         "値動き比較的安定"
       ]
@@ -18932,12 +18954,12 @@
       "mom120": -21.03,
       "drawdown": -45.87,
       "vol20": 34.18,
-      "momentum_score": 22.0,
+      "momentum_score": 22.1,
       "pullback_score": 7.7,
       "stability_score": 29.9,
       "relative_score": 35.5,
       "reasons": [
-        "市場内の相対順位で抽出"
+        "日経平均より強い"
       ]
     },
     {
@@ -19032,7 +19054,7 @@
       "mom120": -12.43,
       "drawdown": -20.92,
       "vol20": 57.13,
-      "momentum_score": 5.3,
+      "momentum_score": 5.4,
       "pullback_score": 47.8,
       "stability_score": 10.1,
       "relative_score": 10.9,
@@ -19075,7 +19097,7 @@
       "momentum_score": 11.0,
       "pullback_score": 18.2,
       "stability_score": 7.0,
-      "relative_score": 42.5,
+      "relative_score": 42.4,
       "reasons": [
         "日経平均より強い"
       ]
@@ -19500,7 +19522,7 @@
       "momentum_score": 10.7,
       "pullback_score": 13.3,
       "stability_score": 10.5,
-      "relative_score": 24.2,
+      "relative_score": 24.1,
       "reasons": [
         "市場内の相対順位で抽出"
       ]
@@ -19582,6 +19604,7 @@
       "stability_score": 8.7,
       "relative_score": 34.7,
       "reasons": [
+        "日経平均より強い",
         "反転初動候補"
       ]
     },
@@ -19640,7 +19663,7 @@
       "momentum_score": 7.9,
       "pullback_score": 10.9,
       "stability_score": 17.7,
-      "relative_score": 24.4,
+      "relative_score": 24.3,
       "reasons": [
         "市場内の相対順位で抽出"
       ]
@@ -19979,7 +20002,7 @@
       "mom120": -28.96,
       "drawdown": -53.3,
       "vol20": 56.09,
-      "momentum_score": 21.5,
+      "momentum_score": 21.6,
       "pullback_score": 5.2,
       "stability_score": 10.8,
       "relative_score": 46.6,
@@ -20662,7 +20685,7 @@
       "mom120": -26.15,
       "drawdown": -67.92,
       "vol20": 80.13,
-      "momentum_score": 21.8,
+      "momentum_score": 21.9,
       "pullback_score": 2.4,
       "stability_score": 3.9,
       "relative_score": 11.5,
@@ -21082,7 +21105,7 @@
       "mom120": -59.06,
       "drawdown": -86.68,
       "vol20": 43.36,
-      "momentum_score": 5.4,
+      "momentum_score": 5.3,
       "pullback_score": 0.2,
       "stability_score": 18.2,
       "relative_score": 4.9,
