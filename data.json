@@ -1,84 +1,84 @@
 {
   "version": "1.0",
-  "updated_at": "2026-09-22T01:02:15+09:00",
+  "updated_at": "2026-09-22T23:11:38+09:00",
   "regime": {
-    "score": 51.7,
+    "score": 51.4,
     "label": "中立",
-    "nikkei20": -0.78,
-    "vix20": -5.93
+    "nikkei20": -1.27,
+    "vix20": -5.37
   },
   "market": [
     {
       "symbol": "^N225",
       "name": "日経平均",
       "value": 65018.9492,
-      "change5": 2.4,
-      "change20": -0.78,
-      "change60": -6.4
+      "change5": 2.42,
+      "change20": -1.27,
+      "change60": -7.2
     },
     {
       "symbol": "1306.T",
       "name": "TOPIX連動ETF",
       "value": 426.3,
-      "change5": 0.71,
-      "change20": 0.38,
-      "change60": 3.03
+      "change5": 1.19,
+      "change20": -0.09,
+      "change60": 2.57
     },
     {
       "symbol": "JPY=X",
       "name": "ドル円",
-      "value": 157.483,
-      "change5": 2.65,
-      "change20": -0.89,
-      "change60": -2.66
+      "value": 157.282,
+      "change5": 1.88,
+      "change20": -1.17,
+      "change60": -2.87
     },
     {
       "symbol": "^TNX",
       "name": "米国10年金利",
-      "value": 4.961,
-      "change5": 0,
-      "change20": 5.46,
-      "change60": 13.42
+      "value": 4.951,
+      "change5": -0.9,
+      "change20": 6.73,
+      "change60": 12.06
     },
     {
       "symbol": "^VIX",
       "name": "VIX",
-      "value": 14.91,
-      "change5": -12.81,
-      "change20": -5.93,
-      "change60": -15.52
+      "value": 14.62,
+      "change5": -15.0,
+      "change20": -5.37,
+      "change60": -11.12
     },
     {
       "symbol": "CL=F",
       "name": "WTI原油",
-      "value": 92.02,
-      "change5": -9.24,
-      "change20": 8.25,
-      "change60": 30.06
+      "value": 90.64,
+      "change5": -14.35,
+      "change20": 10.05,
+      "change60": 30.42
     },
     {
       "symbol": "GC=F",
       "name": "金",
-      "value": 4386.7002,
-      "change5": 0.8,
-      "change20": -6.62,
-      "change60": 8.61
+      "value": 4371.0,
+      "change5": 0.88,
+      "change20": -6.89,
+      "change60": 8.23
     },
     {
       "symbol": "HG=F",
       "name": "銅",
-      "value": 6.768,
-      "change5": 6.92,
-      "change20": 2.56,
-      "change60": 11.0
+      "value": 6.8585,
+      "change5": 7.69,
+      "change20": 2.22,
+      "change60": 10.75
     },
     {
       "symbol": "SOXX",
       "name": "米国半導体ETF",
-      "value": 554.57,
-      "change5": 11.57,
-      "change20": 9.63,
-      "change60": -9.67
+      "value": 565.45,
+      "change5": 13.35,
+      "change20": 10.07,
+      "change60": -11.7
     }
   ],
   "ranking": [
@@ -3245,7 +3245,7 @@
       "stability_score": 14.4,
       "relative_score": 20.7,
       "reasons": [
-        "市場内の相対順位で抽出"
+        "日経平均より強い"
       ]
     },
     {
@@ -4406,7 +4406,8 @@
       "stability_score": 26.1,
       "relative_score": 19.5,
       "reasons": [
-        "適度な押し目"
+        "適度な押し目",
+        "日経平均より強い"
       ]
     },
     {
@@ -9730,6 +9731,7 @@
       "relative_score": 19.4,
       "reasons": [
         "適度な押し目",
+        "日経平均より強い",
         "値動き比較的安定"
       ]
     },
@@ -10745,6 +10747,7 @@
       "relative_score": 20.0,
       "reasons": [
         "適度な押し目",
+        "日経平均より強い",
         "値動き比較的安定"
       ]
     },
@@ -12657,6 +12660,7 @@
       "relative_score": 20.2,
       "reasons": [
         "適度な押し目",
+        "日経平均より強い",
         "値動き比較的安定",
         "反転初動候補"
       ]
@@ -12858,6 +12862,7 @@
       "relative_score": 20.9,
       "reasons": [
         "適度な押し目",
+        "日経平均より強い",
         "値動き比較的安定"
       ]
     },
@@ -14037,6 +14042,7 @@
       "relative_score": 20.1,
       "reasons": [
         "適度な押し目",
+        "日経平均より強い",
         "値動き比較的安定"
       ]
     },
@@ -14299,6 +14305,7 @@
       "relative_score": 19.7,
       "reasons": [
         "適度な押し目",
+        "日経平均より強い",
         "値動き比較的安定",
         "反転初動候補"
       ]
@@ -15122,6 +15129,7 @@
       "relative_score": 20.5,
       "reasons": [
         "適度な押し目",
+        "日経平均より強い",
         "反転初動候補"
       ]
     },
@@ -15143,6 +15151,7 @@
       "relative_score": 19.9,
       "reasons": [
         "適度な押し目",
+        "日経平均より強い",
         "値動き比較的安定",
         "反転初動候補"
       ]
@@ -15208,6 +15217,7 @@
       "relative_score": 19.6,
       "reasons": [
         "適度な押し目",
+        "日経平均より強い",
         "反転初動候補"
       ]
     },
@@ -15529,6 +15539,7 @@
       "stability_score": 92.7,
       "relative_score": 20.4,
       "reasons": [
+        "日経平均より強い",
         "値動き比較的安定",
         "反転初動候補"
       ]
@@ -16684,6 +16695,7 @@
       "stability_score": 88.4,
       "relative_score": 21.0,
       "reasons": [
+        "日経平均より強い",
         "値動き比較的安定"
       ]
     },
@@ -18062,6 +18074,7 @@
       "stability_score": 82.8,
       "relative_score": 20.3,
       "reasons": [
+        "日経平均より強い",
         "値動き比較的安定"
       ]
     },
@@ -18122,6 +18135,7 @@
       "stability_score": 58.8,
       "relative_score": 19.8,
       "reasons": [
+        "日経平均より強い",
         "値動き比較的安定"
       ]
     },
@@ -19335,6 +19349,7 @@
       "stability_score": 22.3,
       "relative_score": 20.8,
       "reasons": [
+        "日経平均より強い",
         "反転初動候補"
       ]
     },
@@ -19725,7 +19740,7 @@
       "stability_score": 6.0,
       "relative_score": 20.6,
       "reasons": [
-        "市場内の相対順位で抽出"
+        "日経平均より強い"
       ]
     },
     {
