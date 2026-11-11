@@ -1,5 +1,77 @@
 [
   {
+    "updated_at": "2026-11-12T02:27:23+09:00",
+    "regime": {
+      "score": 38.9,
+      "label": "中立",
+      "nikkei20": -10.75,
+      "vix20": 5.45
+    },
+    "top": [
+      {
+        "ticker": "3909.T",
+        "name": "ショーケース",
+        "score": 100.0,
+        "signal": "最優先候補"
+      },
+      {
+        "ticker": "3042.T",
+        "name": "セキュアヴェイル",
+        "score": 99.9,
+        "signal": "最優先候補"
+      },
+      {
+        "ticker": "2612.T",
+        "name": "かどや製油",
+        "score": 99.8,
+        "signal": "最優先候補"
+      },
+      {
+        "ticker": "3297.T",
+        "name": "東武住販",
+        "score": 99.7,
+        "signal": "最優先候補"
+      },
+      {
+        "ticker": "3399.T",
+        "name": "丸千代山岡家",
+        "score": 99.6,
+        "signal": "最優先候補"
+      },
+      {
+        "ticker": "3054.T",
+        "name": "ハイパー",
+        "score": 99.5,
+        "signal": "最優先候補"
+      },
+      {
+        "ticker": "3920.T",
+        "name": "アイビーシー",
+        "score": 99.4,
+        "signal": "最優先候補"
+      },
+      {
+        "ticker": "3994.T",
+        "name": "マネーフォワード",
+        "score": 99.3,
+        "signal": "最優先候補"
+      },
+      {
+        "ticker": "3858.T",
+        "name": "ユビキタスＡＩ",
+        "score": 99.2,
+        "signal": "最優先候補"
+      },
+      {
+        "ticker": "3001.T",
+        "name": "片倉工業",
+        "score": 99.1,
+        "signal": "最優先候補"
+      }
+    ],
+    "success": 999
+  },
+  {
     "updated_at": "2026-11-11T02:17:19+09:00",
     "regime": {
       "score": 25.6,
